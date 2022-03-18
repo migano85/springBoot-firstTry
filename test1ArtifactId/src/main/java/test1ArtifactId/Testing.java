@@ -4,6 +4,7 @@ public class Testing {
 private Long x;
 
 public Long getX() {
+	x = x+1;
 	return x;
 }
 
